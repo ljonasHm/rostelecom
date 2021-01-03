@@ -1,0 +1,999 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html, body{
+    width: 100%;
+    height: 320%;
+    min-height: 2500px;
+    padding: 0;
+    margin: 0;
+    background-color: #202026;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#maindiv {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #202026;
+}
+
+#top {
+    position: fixed;
+    width: 100%;
+    height: 18%;
+    background-color: #3b3c46;
+    z-index: 10;
+}
+
+#info {
+    width: 100%;
+    height: 7%;
+    background-image: url(img/pad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tarif {
+    width: 100%;
+    height: 50%;
+    background-color: #202026;
+    position: relative;
+}
+
+#connectioninfo {
+    position: relative;
+    width: 100%;
+    height: 7%;
+    background-color: #3b3c46;
+}
+
+.bonus-info {
+    position: relative;
+    width: 100%;
+    height: 7%;
+    padding-top: 5%;
+    background-image: url(img/room.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#techinfo {
+    position: relative;
+    width: 100%;
+    height: 6%;
+    background-color: #202026;
+}
+
+.channels {
+    position: relative;
+    height: 9%;
+    background-color: #3b3c46;
+}
+
+
+
+#formdiv {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-color: #202026;
+}
+
+
+#bottom {
+    position: relative;
+    width: 100%;
+    height: 3%;
+    background-color: #3b3c46;
+}
+
+#logo {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    top: 10%;
+    background-image: url(img/Logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+#channels {
+    position: relative;
+    width: 100%;
+    height: 10.5%;
+}
+
+#contacts {
+    position: relative;
+    width: 100%;
+    color: #e2e2e2;
+    text-align: center;
+    top: 10%;
+}
+
+.pcontacts {
+    font-size: calc(1rem + 0.8vh);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form-and-info {
+    position: relative;
+    height: 80%;
+    width: 100%;
+}
+
+.forminfo {
+    position: relative;
+    height: 40%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.form-info-section {
+    position: relative;
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+
+.form-info-icon {
+    margin-top: 10%;
+    height: 40%;
+}
+
+.form-info-p {
+    color: #e2e2e2;
+    font-size: 25px;
+    margin-left: 10%;
+}
+
+.userform {
+    width: 100%;
+    height: 40%;
+}
+
+
+#hinfo {
+    position: relative;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #dbdbdb;
+    font-size: calc(1rem + 2.5vh);
+    top: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#infobutplace {
+    position: relative;
+    top: 45%;
+    width: 50%;
+    left: 25%;
+    height: 30%;
+}
+
+.infobut {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.infobutttxt {
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: calc(1rem + 0.5vh);
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+    white-space: nowrap;
+}
+
+#infobut1 {
+    background-color: #92d416;
+}
+
+#infobut2 {
+    top: 20px;
+    background-color: #7800ff;
+}
+
+#acall {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.connection-main {
+    width: 100%;
+    height: 80%;
+}
+
+.connection-divs {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.connection-div {
+    height: 100%;
+    width: 50%;
+}
+
+.digitimg {
+    width: 50%;
+    margin-left: 25%;
+}
+
+h1 {
+    margin-top: 0;
+    position: relative;
+    font-size: calc(1rem + 2vh);
+    color: #e2e2e2;
+    text-align: center;
+    font-family: 'Ubuntu';
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #e2e2e2;
+    text-align: center;
+    font-family: 'Ubuntu';
+}
+
+h3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: calc(1rem + 0.1vh);
+    color: #e2e2e2;
+    text-align: center;
+    font-family: 'Ubuntu';
+}
+
+.connection-h1 {
+    font-size: 30px;
+}
+
+.connection-h2 {
+    font-size: 20px;
+}
+
+.imgc {
+    position: relative;
+    left: 29.5%;
+    width: 41%;
+    height: 13%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#imgc1 {
+    background-image: url(img/connection1.png);
+}
+
+#imgc2 {
+    background-image: url(img/connection2.png);
+}
+
+#imgc3 {
+    background-image: url(img/connection3.png);
+}
+
+#imgc4 {
+    background-image: url(img/connection4.png); 
+}
+
+.phone {
+    font-size: calc(1.5rem + 0.1vh);
+    text-decoration: none;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#tarifh1 {
+    position: relative;
+}
+
+.tarifp {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+    color: #e2e2e2;
+    text-align: left;
+    font-family: 'Ubuntu';
+}
+
+.tarifh2 {
+    margin-bottom: 2%;
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+#tarifbut {
+    position: relative;
+    width: 45%;
+    left: 27.5%;
+}
+
+.formfield {
+    position: relative;
+    width: 80%;
+    padding: 0;
+    border-width: 0;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    left: 10%;
+}
+
+#namefield {
+    margin-top: 10%;
+}
+
+#telfield {
+    margin-top: 3%;
+}
+
+#lineforminput {
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 3%;
+}
+
+#streetfield {
+    width: 50%;
+    left: 0;
+    border-right-width: 1px;
+}
+
+#housefield {
+    width: 15%;
+    left: 0;
+    border-right-width: 1px;
+}
+
+#housingfield {
+    width: 15%;
+    left: 0;
+    border-right-width: 1px;
+}
+
+#entrancefield {
+    width: 20%;
+    left: 0;
+}
+
+#submitbut {
+    position: relative;
+    background-color: #92d416;
+    border-radius: 50px;
+    width: 45%;
+    margin-left: 27.5%;
+    margin-top: 10%;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+#bottomnum {
+    margin-top: 15%;
+}
+
+.abut {
+    display: block;
+}
+
+.bonus-info-main {
+    position: relative;
+    height: 85%;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.bonus-info-section{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.bonus-info-sections-split {
+    padding-top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.bonus-info-h1 {
+    color: #e6e6e6;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.bonus-info-h2 {
+    color: #e6e6e6;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.bonus-info-p {
+    color: #e6e6e6;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bonus-padding-left {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bonus-padding-right {
+    padding-right: 5%;
+    padding-left: 5%;    
+}
+
+.bonus-icon {
+    width: 30%;
+    margin-left: 35%;
+}
+
+.tech {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 40%;
+    padding-top: 5%;
+}
+
+#wifiimg {
+    position: relative;
+    width: 35%;
+    margin-left: 8%;
+    height: 100%;
+    background-image: url(img/wifivokrughnosti.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#tvimg {
+    position: relative;
+    width: 35%;
+    margin-left: 8%;
+    height: 100%;
+    background-image: url(img/Pristavkavokruzhnosti.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#descriptioul {
+    position: relative;
+    width: 40%;
+    padding-left: 10%;
+    margin-top: 20%;
+}
+
+
+.descriptiontext {
+    font-size: 18px;
+    color: #e2e2e2;
+    font-family: 'Ubuntu';
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li {
+    color: #92d416;
+}
+#li11 {
+    position: relative;
+}
+
+#li13 {
+    position: relative;
+}
+
+#li21 {
+    position: relative;
+}
+
+.tarifpriceh2 {
+    margin-top: 5%;
+    margin-right: 10%;
+    text-align: right;
+    font-size: 17px;
+}
+
+#maintarif {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    border: 2px solid #92d416;
+}
+
+#chanels {
+    position: relative;
+    background-color: #202026;
+    width: 100%;
+    height: 9.5%;
+}
+
+#slider {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#image {
+    background-color: white;
+}
+
+#owerflow {
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+
+
+#im1 {
+    background-image: url(img/1r.png);
+}
+
+#im2 {
+    background-image: url(img/2r.png);
+}
+
+#im3 {
+    background-image: url(img/3r1.png);
+}
+
+#im4 {
+    background-image: url(img/4r.png);
+}
+
+#im5 {
+    background-image: url(img/5r.png);
+}
+
+#slides article{
+    float: left;
+}
+
+#slides .image {
+    display: flex;
+    width: 800%;
+    height: 100%;
+    line-height: 0;
+}
+
+#slides {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+}
+
+
+
+.img {
+    position: relative;
+    width: 100%;
+}
+
+label, a{
+    cursor: pointer;
+}
+
+.channels input{
+    display: none;
+}
+
+#switch1:checked ~ #slides .image{
+    margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image{
+    margin-left: -100%;
+}
+
+#switch3:checked ~ #slides .image{
+    margin-left: -200%;
+}
+
+#switch4:checked ~ #slides .image{
+    margin-left: -300%;
+}
+
+#switch5:checked ~ #slides .image{
+    margin-left: -400%;
+}
+
+#switch6:checked ~ #slides .image{
+    margin-left: -500%;
+}
+
+#switch7:checked ~ #slides .image{
+    margin-left: -600%;
+}
+
+#switch8:checked ~ #slides .image{
+    margin-left: -700%;
+}
+
+#controls{
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 50px;
+}
+
+#active label{
+    border-radius: 10px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #bbb;
+}
+
+#active{
+    text-align: center;
+}
+
+#switch1:checked ~ #active label:nth-child(1),
+#switch2:checked ~ #active label:nth-child(2),
+#switch3:checked ~ #active label:nth-child(3),
+#switch4:checked ~ #active label:nth-child(4),
+#switch5:checked ~ #active label:nth-child(5),
+#switch6:checked ~ #active label:nth-child(6),
+#switch7:checked ~ #active label:nth-child(7),
+#switch8:checked ~ #active label:nth-child(8){
+    background: #18a3dd;
+}
+
+
+.ainfobut {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+}
+
+.divimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.articleimg {
+    width: 100%;
+    height: 100%;
+}
+
+.hr {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    border: none;
+    color: red;
+    background-color: #92d416;
+    height: 2px;
+}
+
+#infobut3 {
+    top: 20px;
+    background-color: #7800ff;
+}
+
+#im6 {
+    background-image: url(img/6r.png);
+}
+
+#im7 {
+    background-image: url(img/7r.png);
+}
+
+#im8 {
+    background-image: url(img/8r.png);
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cards {
+    position: relative;
+    width: 100%;
+    height: 31%;
+    margin-bottom: 10%;
+}
+
+.front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: cadetblue;
+    backface-visibility: hidden;
+}
+
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: 1px solid red;
+    transform: rotateY(180deg);
+    background-color: aquamarine;
+    backface-visibility: hidden;
+}
+
+#back {
+    transform: rotateY(180deg);
+}
+
+#back1 {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+#back2 {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+#back3 {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+#back4 {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+#back5 {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+#back6 {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+.frontclass {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: 2px solid #92d416;
+    border-radius: 10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+.backclass {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: 2px solid #7800ff;
+    border-radius: 10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+#cards1 {
+    position: relative;
+    width: 80%;
+    height: 42%;
+    margin-left: 10%;
+}
+
+#cards2 {
+    width: 80%;
+    height: 42%;
+    margin-left: 10%;
+}
+
+#cards3 {
+    width: 80%;
+    height: 42%;
+    margin-left: 10%;
+}
+
+.tarifname {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.infocard {
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.tarifhr {
+    border: none;
+    background-color: #7800ff;
+    color: #7800ff;
+    height: 1px;
+}
+
+.tarifprice {
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.rubmonth {
+    color: #e2e2e2;
+    text-align: center;
+    margin-top: 0;
+}
+
+.infofront {
+    font-size: 15px;
+    text-align: left;
+}
+
+.onbutt {
+    position: absolute;
+    background-color: white;
+    width: 60%;
+    margin-left: 10%;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #7800ff;
+    border-color: #7800ff;
+    border-style: solid;
+    font-family: 'Ubuntu', sans-serif;
+    color: #e2e2e2;
+    font-size: 16px;
+    bottom: 12%;
+}
+
+.infobuttarif {
+    position: absolute;
+    width: 60%;
+    margin-left: 10%;
+    height: 30px;
+    padding: 0;
+    border-radius: 50px;
+    border-width: 0;
+    border-color: #7800ff;
+    background-color: #7800ff;
+    border-style: solid;
+    font-family: 'Ubuntu', sans-serif;
+    color: #e2e2e2;
+    font-size: 16px;
+    bottom: 4%;
+}
+
+.infobutttxttarif {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    height: 100%;
+    padding-top: 5px;
+    white-space: nowrap;
+}
+
+.offbut {
+    position: absolute;
+    background-color: white;
+    width: 60%;
+    height: 40px;
+    margin-left: 10%;
+    border-radius: 50px;
+    background-color: #92d416;
+    border-style: solid;
+    border-bottom-width: 0,2px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 16px;
+    bottom: 5%;
+}
+
+.infocardback {
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+.backhead {
+    font-size: 20px;
+    color: #e2e2e2;
+    margin-bottom: 0;
+}
+
+.backtext {
+    color: #e2e2e2;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.backtarifhr {
+    border: none;
+    background-color: #92d416;
+    color: #92d416;
+    height: 1px;
+}
+
+#biginfocardback {
+    height: 90%;
+    margin-top: 5%;
+}
+
+#infocardback5 {
+    margin-top: 5%;
+}
+
+#tarifprice6 {
+    margin-top: 0;
+}
+
+#tarifprice5 {
+    margin-top: 0;
+}
+
+#tarifprice4 {
+    margin-top: 0;
+}
+
+.speedicon {
+    position: relative;
+    top: 5px;
+    right: 5px;
+    height: 25px;
+}
+
+.tvicon {
+    position: relative;
+    top: 10px;
+    right: 5px;
+    height: 35px;
+}
+
+.simicon {
+    position: relative;
+    height: 35px;
+    right: 5px;
+}

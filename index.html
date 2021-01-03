@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <meta http-equiv="x-rim-auto-match" content="none">
+        <title>Интернет Москва</title>
+        <link rel="stylesheet" href="style.css?v=2.003">
+        <link rel="stylesheet" href="media.css?v=1.001">
+        <link rel="shortcut icon" href="img/ico.ico" type="image/x-icon">
+        <script src="inc/script.js?v=1"></script>
+    </head>
+    <body>
+        <!— Yandex.Metrika counter —>
+        <script type="text/javascript">
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(65543008, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/65543008" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!— /Yandex.Metrika counter —>
+        <div id=top>
+            <div id=logo></div>
+            <div id=contacts>
+                <a href="tel:+74951969981" class="phone">+7 (495) 196-99-81</a>
+                <p class="pcontacts">г. Москва</p>
+            </div>
+        </div>
+        <div id="maindiv">
+            <div id="info">
+                <h1 id="hinfo">Выделенная линия в каждую квартиру</h1>
+                <div id="infobutplace">
+                    <div id="infobut1" class="infobut"><a href="#atarif" class="ainfobut"><p  class="infobutttxt">Подобрать тариф</p></a></div>
+                    <div id="infobut2" class="infobut"><a href="#aform" class="ainfobut"><p class="infobutttxt">Заказать звонок</p></a></div>
+                </div>
+            </div>
+            <div id="tarif">
+                <p><a name="atarif"></a></p>
+                <h1 id="tarifh1"><br>Тарифы</h1>
+                <div id="cards1">
+                    <div class="cards">
+                        <div class="card">
+                            <div id="front" class="frontclass">
+                                <div class="infocard">
+                                    <h3 class="tarifname">Для начала</h3>
+                                    <hr class="tarifhr">
+                                    <h2 class="tarifprice">400</h2>
+                                    <p class="rubmonth">рублей в месяц</p>
+                                    <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">100 Мбит/c</h2>
+                                    <button onclick="flip()" class="onbutt">Подробнее</button>
+                                    <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
+                                </div>
+                            </div>
+                            <div id="back" class="backclass">
+                                <div class="infocardback">
+                                    <p class="backhead">Параметры</p>
+                                    <p class="backtext"> - Домашний интернет 100 Мбит/c</p>
+                                    <hr class="backtarifhr">
+                                    <p class="backhead">Дополнительно</p>
+                                    <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
+                                    <button onclick="flipback()" class="offbut">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards" id="card1">
+                        <div class="card">
+                            <div id="front1" class="frontclass">
+                                <div class="infocard">
+                                    <h3 class="tarifname">Апгрейд</h3>
+                                    <hr class="tarifhr">
+                                    <h2 class="tarifprice">500</h2>
+                                    <p class="rubmonth">рублей в месяц</p>
+                                    <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">500 Мбит/c</h2>
+                                    <button onclick="flip1()" class="onbutt" id="onbut5">Подробнее</button>
+                                    <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
+                                </div>
+                            </div>
+                            <div id="back1" class="backclass">
+                                <div class="infocardback">
+                                    <p class="backhead">Параметры</p>
+                                    <p class="backtext"> - Домашний интернет 500 Мбит/c</p>
+                                    <hr class="backtarifhr">
+                                    <p class="backhead">Дополнительно</p>
+                                    <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
+                                    <button onclick="flipback1()" class="offbut">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards" id="card2">
+                        <div class="card">
+                            <div id="front2" class="frontclass">
+                                <div class="infocard">
+                                    <h3 class="tarifname">Апгрейд 2в1</h3>
+                                    <hr class="tarifhr">
+                                    <h2 class="tarifprice">550</h2>
+                                    <p class="rubmonth">рублей в месяц</p>
+                                    <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">500 Мбит/c</h2>
+                                    <h2 class="infofront"><img src="img/tvicon1.png" class="tvicon">150 ТВ каналов</h2>
+                                    <button onclick="flip2()" class="onbutt" id="onbut4">Подробнее</button>
+                                    <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
+                                </div>
+                            </div>
+                            <div id="back2" class="backclass">
+                                <div class="infocardback">
+                                    <p class="backhead">Параметры</p>
+                                    <p class="backtext"> - Домашний интернет 500 Мбит/c</p>
+                                    <p class="backtext">- 150 ТВ каналов с приставкой</p>
+                                    <hr class="backtarifhr">
+                                    <p class="backhead">Дополнительно</p>
+                                    <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
+                                    <p class="backtext">- ТВ приставка за 10 рублей! Услуга "Гарантия плюс" на ТВ приставку</p>
+                                    <button onclick="flipback2()" class="offbut" id="offbut2">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cards2">
+                    <div class="cards">
+                        <div class="card">
+                            <div id="front3" class="frontclass">
+                                <div class="infocard">
+                                    <h3 class="tarifname">Технологии общения</h3>
+                                    <hr class="tarifhr">
+                                    <h2 class="tarifprice" id="tarifprice4">700</h2>
+                                    <p class="rubmonth">рублей в месяц</p>
+                                    <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">200 Мбит/c</h2>
+                                    <h2 class="infofront"><img src="img/simicon.png" class="simicon">Симкарта<br>1200 минут<br>500 смс<br>безлимитный интернет</h2>
+                                    <button onclick="flip3()" class="onbutt" id="onbut2">Подробнее</button>
+                                    <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
+                                </div>
+                            </div>
+                            <div id="back3" class="backclass">
+                                <div class="infocardback" id="infocardback4">
+                                    <p class="backhead">Параметры</p>
+                                    <p class="backtext"> - Домашний интернет 200 Мбит/c</p>
+                                    <hr class="backtarifhr">
+                                    <p class="backhead">Дополнительно</p>
+                                    <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
+                                    <p class="backtext"> - Cимкарта с сохранением номера 1200 минут, 500 смс и безлимитный интернет</p>
+                                    <button onclick="flipback3()" class="offbut" id="offbut3">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards" id="card4">
+                        <div class="card">
+                            <div id="front4" class="frontclass">
+                                <div class="infocard" id="infocardback5">
+                                    <h3 class="tarifname">Для развлечения везде</h3>
+                                    <hr class="tarifhr">
+                                    <h2 class="tarifprice" id="tarifprice5">800</h2>
+                                    <p class="rubmonth">рублей в месяц</p>
+                                    <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon"> Мбит/c</h2>
+                                    <h2 class="infofront"><img src="img/tvicon1.png" class="tvicon">230 ТВ каналов</h2>
+                                    <h2 class="infofront"><img src="img/simicon.png" class="simicon">Симкарта<br>1200 минут<br>500 смс<br>безлимитный интернет</h2>
+                                    <button onclick="flip4()" class="onbutt" id="onbut3">Подробнее</button>
+                                    <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
+                                </div>
+                            </div>
+                            <div id="back4" class="backclass">
+                                <div class="infocardback" id="biginfocardback">
+                                    <p class="backhead">Параметры</p>
+                                    <p class="backtext"> - Домашний интернет 100 Мбит/c</p>
+                                    <p class="backtext"> - 230 ТВ каналов с приставкой</p>
+                                    <hr class="backtarifhr">
+                                    <p class="backhead">Дополнительно</p>
+                                    <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
+                                    <p class="backtext">- ТВ приставка за 10 рублей! Услуга "Гарантия плюс" на ТВ приставку</p>
+                                    <p class="backtext"> - Cимкарта с сохранением номера 1200 минут, 500 смс и безлимитный интернет</p>
+                                    <button onclick="flipback4()" class="offbut" id="offbut4">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards" id="card5">
+                        <div class="card">
+                            <div id="front5" class="frontclass">
+                                <div class="infocard">
+                                    <h3 class="tarifname">2в1 лёгкий переход</h3>
+                                    <hr class="tarifhr">
+                                    <h2 class="tarifprice" id="tarifprice6">390</h2>
+                                    <p class="rubmonth">рублей в месяц</p>
+                                    <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">50 Мбит/c</h2>
+                                    <h2 class="infofront"><img src="img/tvicon1.png" class="tvicon">72 ТВ канала</h2>
+                                    <button onclick="flip5()" class="onbutt" id="onbut6">Подробнее</button>
+                                    <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
+                                </div>
+                            </div>
+                            <div id="back5" class="backclass">
+                                <div class="infocardback">
+                                    <p class="backhead">Параметры</p>
+                                    <p class="backtext"> - Домашний интернет 50 Мбит/c</p>
+                                    <p class="backtext"> - 72 ТВ канала с приставкой</p>
+                                    <hr class="backtarifhr">
+                                    <p class="backhead">Дополнительно</p>
+                                    <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
+                                    <p class="backtext">- ТВ приставка за 10 рублей! Услуга "Гарантия плюс" на ТВ приставку</p>
+                                    <button onclick="flipback5()" class="offbut" id="offbut6">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cards3">
+                    <div class="cards" id="solocard">
+                        <div class="card">
+                            <div id="front6" class="frontclass">
+                                <div class="infocard">
+                                    <h3 class="tarifname">Технологии общения 300</h3>
+                                    <hr class="tarifhr">
+                                    <h2 class="tarifprice">1300</h2>
+                                    <p class="rubmonth">рублей в месяц</p>
+                                    <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">300 Мбит/c</h2>
+                                    <h2 class="infofront"><img src="img/tvicon1.png" class="tvicon">230 ТВ каналов</h2>
+                                    <h2 class="infofront"><img src="img/simicon.png" class="simicon">5 симкарт<br>2000 минут<br>500 смс<br>безлимитный интернет</h2>
+                                    <button onclick="flip6()" class="onbutt" id="onbut6">Подробнее</button>
+                                    <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
+                                </div>
+                            </div>
+                            <div id="back6" class="backclass">
+                                <div class="infocardback">
+                                    <p class="backhead">Параметры</p>
+                                    <p class="backtext"> - Домашний интернет 300 Мбит/c</p>
+                                    <p class="backtext"> - 60 ТВ каналов с приставкой</p>
+                                    <hr class="backtarifhr">
+                                    <p class="backhead">Дополнительно</p>
+                                    <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
+                                    <p class="backtext">- ТВ приставка за 10 рублей! Услуга "Гарантия плюс" на ТВ приставку</p>
+                                    <p class="backtext"> - 5 симкарт с сохранением номера 2000 минут, 500 смс и безлимитный интернет</p>
+                                    <button onclick="flipback6()" class="offbut" id="offbut6">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="connectioninfo">
+                <h1 class="connection-h1"><br>Как проходит подключение?</h1>
+                <div class="connection-main">
+                    <div class="connection-divs">
+                        <div class="connection-div connection-div-left">
+                            <img src="img/Curcledigit1.png" class="digitimg">
+                            <h2 class="connection-h2">Выбор тарифа</h2>
+                        </div>
+                        <div class="connection-div connection-div-right">
+                            <img src="img/Curcledigit2.png" class="digitimg">
+                            <h2 class="connection-h2">Оформление заявки</h2>
+                        </div>
+                    </div>
+                    <div class="connection-divs">
+                        <div class="connection-div connection-div-left">
+                            <img src="img/Curcledigit3.png" class="digitimg">
+                            <h2 class="connection-h2">Подключение</h2>
+                        </div>
+                        <div class="connection-div connection-div-right">
+                            <img src="img/Curcledigit4.png" class="digitimg">
+                            <h2 class="connection-h2">Наслаждайтесь выбором!</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="bonus-info">
+                <h1 class="bonus-info-h1">Делаем жизнь удобнее</h1>
+                <section class="bonus-info-main">
+                    <section class="bonus-info-section">
+                        <section class="bonus-info-sections-split bonus-padding-left">
+                            <img src="img/teliconbonus.png" class="bonus-icon">
+                            <h2 class="bonus-info-h2">Общайтесь больше</h2>
+                            <p class="bonus-info-p">Звоните бесплатно на Ростелеком и Tele2</p>
+                        </section>
+                        <section class="bonus-info-sections-split bonus-padding-right">
+                            <img src="img/simincircle.png" class="bonus-icon">
+                            <h2 class="bonus-info-h2">Не надо менять номер</h2>
+                            <p class="bonus-info-p">Сохраните номер телефона при переходе от другого оператора</p>
+                        </section>
+                    </section>
+                    <section class="bonus-info-section">
+                        <section class="bonus-info-sections-split bonus-padding-right">
+                            <img src="img/messageiconbonus.png" class="bonus-icon">
+                            <h2 class="bonus-info-h2">Будьте на связи</h2>
+                            <p class="bonus-info-p">Пользуйтесь всеми услугами и платите за них по факту в конце месяца</p>
+                        </section>
+                        <section class="bonus-info-sections-split bonus-padding-left">
+                            <img src="img/tviconbonus.png" class="bonus-icon">
+                            <h2 class="bonus-info-h2">Управляйте ТВ-эфиром</h2>
+                            <p class="bonus-info-p">Ставьте на паузу, перематывайте и записывайте любимые шоу</p>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <div id="techinfo">
+                <div class="tech">
+                    <div id="wifiimg"></div>
+                    <ul id="descriptioul">
+                        <li class="litext" id="li11"><span><p class="descriptiontext">2.4 и 5.0 ГГц</p></span></li>
+                        <li class="litext" id="li12"><span><p class="descriptiontext">Радиус покрытия 60м</p></span></li>
+                        <li class="litext" id="li13"><span><p class="descriptiontext">Проводная способность<br>1000 мбит/с</p></span></li>
+                    </ul>
+                </div>
+                <div class="tech">
+                    <div id="tvimg"></div>
+                    <ul id="descriptioul">
+                        <li class="litext" id="li21"><span><p class="descriptiontext">Перемотка</p></span></li>
+                        <li class="litext" id="li22"><span><p class="descriptiontext">Запись</p></span></li>
+                        <li class="litext" id="li23"><span><p class="descriptiontext">Беспроводная установка</p></span></li>
+                        <li class="litext" id="li23"><span><p class="descriptiontext">Подключение до пяти телевизоров</p></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="channels">
+                <h1><br><br>Список каналов</h1>
+                <input checked type="radio" name="respond" id="desktop">
+                <article id="slider">
+                    <input checked type="radio" name="slider" id="switch1">
+                    <input type="radio" name="slider" id="switch2">
+                    <input type="radio" name="slider" id="switch3">
+                    <input type="radio" name="slider" id="switch4">
+                    <input type="radio" name="slider" id="switch5">
+                    <input type="radio" name="slider" id="switch6">
+                    <input type="radio" name="slider" id="switch7">
+                    <input type="radio" name="slider" id="switch8">
+                    <div id="slides">
+                        <div id="owerflow">
+                            <div class="image">
+                                <article class="articleimg"><div id="im1" class="divimg"></div></article>
+                                <article class="articleimg"><div id="im2" class="divimg"></div></article>
+                                <article class="articleimg"><div id="im3" class="divimg"></div></article>
+                                <article class="articleimg"><div id="im4" class="divimg"></div></article>
+                                <article class="articleimg"><div id="im5" class="divimg"></div></article>
+                                <article class="articleimg"><div id="im6" class="divimg"></div></article>
+                                <article class="articleimg"><div id="im7" class="divimg"></div></article>
+                                <article class="articleimg"><div id="im8" class="divimg"></div></article>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="controls">
+                        <label for="switch1"></label>
+                        <label for="switch2"></label>
+                        <label for="switch3"></label>
+                        <label for="switch4"></label>
+                        <label for="switch5"></label>
+                        <label for="switch6"></label>
+                        <label for="switch7"></label>
+                        <label for="switch8"></label>
+                    </div>
+                    <div id="active">
+                        <label for="switch1"></label>
+                        <label for="switch2"></label>
+                        <label for="switch3"></label>
+                        <label for="switch4"></label>
+                        <label for="switch5"></label>
+                        <label for="switch6"></label>
+                        <label for="switch7"></label>
+                        <label for="switch8"></label>
+                    </div>
+                </article>
+            </div>
+            <div id="formdiv">
+                <p><a name="aform"></a></p>
+                <h1><br>Закажи обратный звонок!</h1>
+                <h2>Перезвоним в течение 10 минут.</h2>
+                <section class="form-and-info">
+                    <section class="forminfo">
+                        <section class="form-info-section">
+                            <img src="img/percent.png" class="form-info-icon">
+                            <p class="form-info-p">Скидка при подключении нескольких услуг</p>
+                        </section>
+                        <section class="form-info-section">
+                            <img src="img/24.png" class="form-info-icon">
+                            <p class="form-info-p">Подключение за 24 часа</p>
+                        </section>
+                    </section>
+                    <form  action="/send.php" method="post" class="userform">
+                        <input type="text" name="name" placeholder="Имя" required class="formfield" id="namefield">
+                        <input type="tel" name="tel" placeholder="Телефон" required class="formfield" id="telfield">
+                        <div id="lineforminput">
+                            <input type="text" name="street" placeholder="Улица" required class="formfield" id="streetfield">
+                            <input type="text" name="house" placeholder="Дом" required class="formfield" id="housefield">
+                            <input type="text" name="housing" placeholder="Корпус" class="formfield" id="housingfield">
+                            <input type="text" name="entrance" placeholder="Подъезд" required class="formfield" id="entrancefield">
+                        </div>
+                        <input type="submit" value="Отправить" id="submitbut" class="infobut">
+                    </form>
+                </section>
+            </div>
+            <div id="bottom">
+                <h1><br>Наши Контакты</h1>
+                <h2 id="bottomnum">Телефон: +7 (495) 196-99-81</h2>
+                <h2>г. Москва</h2>
+            </div>
+        </div>
+        <!— Google Tag Manager —>
+        <script>(function(w,d,s,l,i,cid){w[l]=w[l]||[];w.pclick_client_id=cid;w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''; j.async=true; j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-P23G9N', '83915');</script>
+        <!— End Google Tag Manager —>
+    </body>
+</html>

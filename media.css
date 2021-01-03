@@ -1,0 +1,668 @@
+@media (min-width: 500px) and (max-width: 1000px) {
+    
+    #cards1 {
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    #cards2 {
+        width: 60%;
+        margin-left: 20%;
+    }
+    #cards3 {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .infobuttarif {
+        height: 40px;
+    }
+    .infobutttxttarif {
+        padding-top: 10px;
+    }
+    .onbutt {
+        height: 40px;
+    }
+    .infofront {
+        font-size: 18px;
+    }
+    .backtext {
+        font-size: 17px;
+    }
+
+    .form-and-info {
+        display: flex;
+    }
+    .forminfo {
+        height: 80%;
+        width: 40%;
+        margin-left: 10%;
+        margin-bottom: 20%;
+        margin-top: 5%;
+    }
+    .userform {
+        width: 50%;
+        height: 100%;
+    }
+    .form-info-icon {
+        margin-top: 5%;
+        height: 40%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    #maindiv {
+        width: 98%;
+        left: 1%;
+    }
+    body {
+        height:  220%;
+        min-height: 6080px;
+    }
+    #top{
+        height: 14%;
+    }
+    #info{
+        height: 12%; 
+    }
+    #tarif {
+        height: 30%;
+    }
+    .infofront {
+        font-size: 18px;
+    }
+    #connectioninfo {
+        height: 5.5%;
+    }
+
+    .connection-main {
+        display: flex;
+    }
+
+    h1 {
+        font-size: calc(1rem + 2vh);
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .digitimg {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    .bonus-info {
+        height: 11%;
+    }
+
+    .bonus-padding-left {
+        padding-left: 15%;
+        padding-right: 5%;
+    }
+    
+    .bonus-padding-right {
+        padding-right: 15%;
+        padding-left: 5%;    
+    }
+
+    .bonus-info-h1 {
+        font-size: 45px;
+    }
+
+    .bonus-info-h2 {
+        font-size: 28px;
+    }
+    
+    .bonus-info-p {
+        font-size: 20px;
+    }
+
+    #techinfo {
+        height: 9%;
+    }
+    .channels {
+        height: 15%; 
+    }
+    #formdiv {
+        height: 9%;
+    }
+    .form-and-info {
+        display: flex;
+    }
+    .forminfo {
+        height: 80%;
+        width: 40%;
+        margin-left: 10%;
+        margin-bottom: 20%;
+        margin-top: 5%;
+    }
+    .userform {
+        width: 50%;
+        height: 100%;
+    }
+    .form-info-icon {
+        margin-top: 5%;
+        height: 40%;
+    }
+
+    #bottom {
+        height: 6%;
+    }
+    #submitbut {
+        width: 26%;
+        margin-left: 37%;
+        left: 0;
+    }
+    .infobut{
+        width: 60%;
+        left: 20%;
+    }
+    .onbutt {
+        height: 40px;
+    }
+    .infobuttarif {
+        height: 40px;
+    }
+    .infobutttxttarif {
+        padding-top: 10px;
+    }
+    #cards1 {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 3%;
+        display: flex;
+        height: 29%;
+    }
+    
+    #cards2 {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        height: 29%;
+        margin-bottom: 3%;
+    }
+    #cards3 {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        height: 29%;
+        margin-bottom: 3%;
+    }
+
+    #solocard{
+        margin-left: 35%;
+    }
+    .cards {
+        height: 100%;
+        width: 30%;
+        margin-bottom: 0;
+    }
+    #card1 {
+        margin-left: 5%;
+    }
+    #card2 {
+        margin-left: 5%;
+    }
+    #card4 {
+        margin-left: 5%;
+    }
+    #card5 {
+        margin-left: 5%;
+    }
+
+    #infocardback4 {
+        margin-top: 5%;
+    }
+    .backtext {
+        font-size: 17px;
+    }
+    .formfield {
+        height: 50px;
+        font-size: 20px;
+    }
+    .descriptiontext{
+        font-size:  16px;
+    }
+    #wifiimg {
+        height: 90%;
+    }
+    #tvimg {
+        height: 90%;
+    }
+    #descriptioul {
+        margin-top: 2%; 
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px){
+    #maindiv {
+        width: 70%;
+        left: 15%;
+    }
+        body {
+        height:  180%;
+        min-height: 5340px;
+    }
+    #top{
+        display: flex;
+        height: 14%;
+    }
+    #logo {
+        height: 80%;
+        width: 20%;
+        left: 30%;
+    }
+    #contacts {
+        top: 25%;
+        left: 30%;
+        width: 25%;
+    }
+    .phone {
+        font-size: calc(1.5rem + 1vh);
+    }
+    #info{
+        height: 9%; 
+    }
+    #tarif {
+        height: 32%;
+    }
+    .infofront {
+        font-size: 18px;
+    }
+    #connectioninfo {
+        height: 6%;
+    }
+    .connection-main {
+        display: flex;
+    }
+
+    h1 {
+        font-size: calc(1rem + 2vh);
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .bonus-info {
+        height: 12%;
+    }
+
+    .bonus-padding-left {
+        padding-left: 15%;
+        padding-right: 5%;
+    }
+    
+    .bonus-padding-right {
+        padding-right: 15%;
+        padding-left: 5%;    
+    }
+
+    .bonus-info-h1 {
+        font-size: 45px;
+    }
+
+    .bonus-info-h2 {
+        font-size: 28px;
+    }
+    
+    .bonus-info-p {
+        font-size: 20px;
+    }
+
+    #techinfo {
+        height: 9%;
+    }
+    .channels {
+        height: 15%; 
+    }
+
+
+    #formdiv {
+        height: 10%;
+    }
+    .form-and-info {
+        display: flex;
+    }
+    .forminfo {
+        height: 80%;
+        width: 40%;
+        margin-left: 10%;
+        margin-bottom: 20%;
+        margin-top: 5%;
+    }
+    .userform {
+        width: 50%;
+        height: 100%;
+    }
+    .form-info-icon {
+        margin-top: 5%;
+        height: 40%;
+    }
+
+    #bottom {
+        height: 6%;
+    }
+
+    #cards1 {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 3%;
+        display: flex;
+        height: 30%;
+    }
+    
+    #cards2 {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        height: 30%;
+        margin-bottom: 3%;
+    }
+
+    #cards3 {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        height: 30%;
+        margin-bottom: 3%;
+    }
+
+    #solocard{
+        margin-left: 35%;
+    }
+
+    .cards {
+        height: 100%;
+        width: 32%;
+        margin-bottom: 0;
+    }
+    .onbutt {
+        margin-left: 15%;
+    }
+    .infobuttarif {
+        margin-left: 15%;
+        height: 30px;
+    }
+    .onbutt {
+        height: 30px;
+    }
+    .infobutttxttarif {
+        padding-top: 5px;
+    }
+    .offbut {
+        margin-left: 15%;
+    }
+    .infocard {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .infocardback {
+        width: 90%;
+        margin-left: 5%;
+    }
+    #card1 {
+        margin-left: 2%;
+    }
+    #card2 {
+        margin-left: 2%;
+    }
+    #card4 {
+        margin-left: 2%;
+    }
+    #card5 {
+        margin-left: 2%;
+    }
+    #infocardback4 {
+        margin-top: 5%;
+    }
+    .backtext {
+        font-size: 14px;
+    }
+    .formfield {
+        height: 50px;
+        font-size: 20px;
+    }
+    .descriptiontext{
+        font-size:  16px;
+    }
+    #wifiimg {
+        height: 90%;
+    }
+    #tvimg {
+        height: 90%;
+    }
+    #descriptioul {
+        margin-top: 2%; 
+    }
+}
+
+@media (min-width: 1400px) {
+        #maindiv {
+        width: 60%;
+        left: 20%;
+    }
+        body {
+        height:  180%;
+        min-height: 6150px;
+    }
+    #top{
+        display: flex;
+        height: 13%; 
+    }
+    
+    #logo {
+        height: 80%;
+        width: 20%;
+        left: 30%;
+    }
+    
+    #contacts {
+        width: 20%;
+        left: 30%;
+        top: 25%;
+    }
+    
+    .phone {
+        font-size: calc(1.5rem + 1vh);
+    }
+    
+    #info{
+        height: 11%;
+    }
+    #tarif{
+        height: 31%;
+    }
+    #solocard{
+        margin-left: 35%;
+    }
+    .tarifname {
+        font-size: 27px;
+    }
+    #connectioninfo {
+        height: 6%;
+    }
+
+    .connection-main {
+        display: flex;
+    }
+
+    h1 {
+        font-size: calc(1rem + 2vh);
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .bonus-info {
+        height: 11%;
+    }
+
+    .bonus-padding-left {
+        padding-left: 15%;
+        padding-right: 5%;
+    }
+    
+    .bonus-padding-right {
+        padding-right: 15%;
+        padding-left: 5%;    
+    }
+
+    .bonus-info-h1 {
+        font-size: 45px;
+    }
+
+    .bonus-info-h2 {
+        font-size: 28px;
+    }
+    
+    .bonus-info-p {
+        font-size: 20px;
+    }
+
+    #techinfo {
+        height: 8%;
+    }
+    .channels {
+        height: 13%;
+    }
+
+
+    #formdiv {
+        height: 10%;
+    }
+    .form-and-info {
+        display: flex;
+    }
+    .forminfo {
+        height: 80%;
+        width: 40%;
+        margin-left: 10%;
+        margin-bottom: 20%;
+        margin-top: 5%;
+    }
+    .userform {
+        width: 50%;
+        height: 100%;
+    }
+    .form-info-icon {
+        margin-top: 5%;
+        height: 40%;
+    }
+
+
+    #bottom {
+        height: 7%;
+    }
+    #cards1 {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 3%;
+        display: flex;
+        height: 30%;
+    }
+    
+    #cards2 {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        height: 30%;
+        margin-bottom: 3%;
+    }
+    #cards3 {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        height: 30%;
+        margin-bottom: 3%;
+    }
+    .infofront {
+        font-size: 22px;
+    }
+    .backtext {
+        font-size: 17px;
+    }
+    .infobuttarif {
+        height: 40px;
+    }
+    .onbutt {
+        height: 40px;
+    }
+    .infobutttxttarif {
+        padding-top: 10px;
+    }
+    #wifiimg{
+        height: 80%;
+        margin-top: 10%;
+    }
+    #tvimg{
+        height: 80%;
+        margin-top: 10%;
+    }
+    .formfield {
+        height: 50px;
+        font-size: 20px;
+    }
+    #descriptioul {
+        margin-top: 13%; 
+    }
+    .descriptiontext{
+        font-size:  20px;
+    }
+    #infobutplace {
+    width: 30%;
+    left: 35%;
+    height: 35%;
+    }
+    #tarifbut {
+    position: relative;
+    width: 26%;
+    left: 37%;
+    }
+    #techinfo {
+    height: 8%;
+    }
+    .tech {
+        height: 35%;
+        padding-top: 0;
+    }
+    #submitbut {
+        width: 26%;
+        margin-left: 37%;
+    }
+    .cards {
+        height: 100%;
+        width: 30%;
+        margin-bottom: 0;
+    }
+    #card1 {
+        margin-left: 5%;
+    }
+    #card2 {
+        margin-left: 5%;
+    }
+    #card4 {
+        margin-left: 5%;
+    }
+    #card5 {
+        margin-left: 5%;
+    }
+}
+
+@media (min-width: 1400px) and (max-height: 960px) {
+    .infofront {
+        font-size: 20px;
+    }
+    #maindiv {
+        width: 70%;
+        left: 15%;
+    }
+}
+
+@media (min-width: 1400px) and (max-height: 796px) {
+    body {
+        min-height: 6000px;
+        height: 240%;
+    }
+}
