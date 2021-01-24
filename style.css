@@ -3,7 +3,7 @@
 html, body{
     width: 100%;
     height: 320%;
-    min-height: 2500px;
+    min-height: 2600px;
     padding: 0;
     margin: 0;
     background-color: #202026;
@@ -78,7 +78,7 @@ p {
 #formdiv {
     position: relative;
     width: 100%;
-    height: 10%;
+    height: 8%;
     background-color: #202026;
 }
 
@@ -166,7 +166,18 @@ p {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     color: #dbdbdb;
-    font-size: 30px;
+    font-size: 27px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.info__p {
+    position: relative;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #dbdbdb;
+    font-size: 18px;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -174,7 +185,6 @@ p {
 .info__main {
     height: 100%;
     width: 100%;
-    display: flex;
 }
 
 #infobutplace {
@@ -182,16 +192,24 @@ p {
     background-image: url(img/pad.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 15%;
-    width: 50%;
-    height: 100%;
+    border-radius: 5px;
+    padding-top: 10%;
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+    height: 40%;
 }
 
 .info__sale {
     position: relative;
-    padding-top: 15%;
-    width: 50%;
-    height: 100%;
+    background-image: url(img/sale-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding-top: 10%;
+    width: 90%;
+    margin-left: 5%;
+    height: 35%;
 }
 
 .infobut {
@@ -850,7 +868,7 @@ label, a{
 }
 
 .tarifname {
-    font-size: 24px;
+    font-size: 21px;
     text-align: left;
     margin-bottom: 0;
 }
