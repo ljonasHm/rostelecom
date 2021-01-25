@@ -2,11 +2,15 @@
 
 html, body{
     width: 100%;
-    height: 320%;
+    height: 210%;
     min-height: 2600px;
     padding: 0;
     margin: 0;
     background-color: #202026;
+}
+
+.hide {
+    display: none;
 }
 
 p {
@@ -25,6 +29,7 @@ p {
     width: 100%;
     height: 18%;
     min-height: 92px;
+    max-height: 120px;
     background-color: #3b3c46;
     z-index: 10;
 }
@@ -32,13 +37,13 @@ p {
 #info {
     position: relative;
     width: 100%;
-    height: 7%;
+    height: 10%;
     padding-top: 92px;
 }
 
 #tarif {
     width: 100%;
-    height: 50%;
+    height: 26%;
     background-color: #202026;
     position: relative;
 }
@@ -46,14 +51,14 @@ p {
 #connectioninfo {
     position: relative;
     width: 100%;
-    height: 7%;
+    height: 10%;
     background-color: #3b3c46;
 }
 
 .bonus-info {
     position: relative;
     width: 100%;
-    height: 7%;
+    height: 12%;
     padding-top: 5%;
     background-image: url(img/room.jpg);
     background-size: cover;
@@ -63,13 +68,13 @@ p {
 #techinfo {
     position: relative;
     width: 100%;
-    height: 6%;
+    height: 9%;
     background-color: #202026;
 }
 
 .channels {
     position: relative;
-    height: 9%;
+    height: 14%;
     background-color: #3b3c46;
 }
 
@@ -78,7 +83,7 @@ p {
 #formdiv {
     position: relative;
     width: 100%;
-    height: 8%;
+    height: 13%;
     background-color: #202026;
 }
 
@@ -86,7 +91,7 @@ p {
 #bottom {
     position: relative;
     width: 100%;
-    height: 3%;
+    height: 4%;
     background-color: #3b3c46;
 }
 
@@ -756,17 +761,54 @@ label, a{
     background-image: url(img/8r.png);
 }
 
-.card {
+.tarif__tabs-string {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 45px;
+    padding: 10px 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
-.cards {
-    position: relative;
+.tarif__tabs {
+    display: inline;
+}
+
+.tarif__tabs-button {
+    height: 100%;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(75, 75, 75);
+    border: none;
+    border-radius: 20px;
+    padding: 0 10px;
+    margin: 0 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.tarif__tabs-button-checked {
+    border: 2px solid #92d416;
+}
+
+.tarif__cards-block {
     width: 100%;
-    height: 31%;
-    margin-bottom: 10%;
+    height: 80%;
+}
+
+.tarif__cards-string {
+    width: 100%;
+    height: 100%;
+    display: inline;
+    justify-content: space-evenly;
+}
+
+.card {
+    position: relative;
+    width: 30%;
+    height: 45%;
+    margin: auto;
 }
 
 .front {
@@ -823,6 +865,14 @@ label, a{
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
 }
+#back7 {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+#back8 {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
 .frontclass {
     position: absolute;
     width: 100%;
@@ -848,29 +898,14 @@ label, a{
     transition: 1s;
 }
 
-#cards1 {
-    position: relative;
-    width: 80%;
-    height: 42%;
-    margin-left: 10%;
-}
-
-#cards2 {
-    width: 80%;
-    height: 42%;
-    margin-left: 10%;
-}
-
-#cards3 {
-    width: 80%;
-    height: 42%;
-    margin-left: 10%;
-}
-
 .tarifname {
     font-size: 21px;
     text-align: left;
     margin-bottom: 0;
+}
+
+.tarif__shortname {
+    padding: 15.5px 0;
 }
 
 .infocard {
@@ -992,11 +1027,13 @@ label, a{
 
 #biginfocardback {
     height: 90%;
-    margin-top: 5%;
 }
 
+.tarif__price-long {
+    margin-top: 0;
+}
 #infocardback5 {
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 #tarifprice6 {
@@ -1029,4 +1066,11 @@ label, a{
     position: relative;
     height: 35px;
     right: 5px;
+}
+
+.videoicon {
+    position: relative;
+    height: 34px;
+    right: 5px;
+    top: 10px;
 }

@@ -1,70 +1,50 @@
-function flip()
-{
-    document.getElementById('front').style.transform = "rotateY(180deg)";
-    document.getElementById('back').style.transform = "rotateY(360deg)";
+function flipCard() {
+    const flipButtons = document.querySelectorAll('.onbutt');
+    const backflipButtons = document.querySelectorAll('.offbut');
+
+    flipButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+
+            const frontSide = button.parentElement.parentElement;
+
+            frontSide.style.transform = "rotateY(180deg)";
+            frontSide.nextElementSibling.style.transform = "rotateY(360deg)";
+            
+        });
+    });
+    backflipButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+
+            const backSide = button.parentElement.parentElement;
+
+            backSide.style.transform = "rotateY(180deg)";
+            backSide.previousElementSibling.style.transform = "rotateY(360deg)";
+            
+        });
+    });
 }
-function flipback()
-{
-    document.getElementById('front').style.transform = "rotateY(360deg)";
-    document.getElementById('back').style.transform = "rotateY(180deg)";
+
+function checkTarif() {
+    const tabs = document.querySelectorAll('.tarif__tabs-button');
+    const tarifBlocks = document.querySelectorAll('.tarif__cards-block');
+
+    tabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+            tabs.forEach((tab) => {
+                tab.classList.remove('tarif__tabs-button-checked');
+            });
+            
+            tab.classList.add('tarif__tabs-button-checked');
+            tarifBlocks.forEach((block) => {
+                if (block.getAttribute('data-category') == tab.getAttribute('data-category')) {
+                    block.classList.remove('hide');
+                } else {
+                    block.classList.add('hide');
+                }
+            });
+        });
+    });
 }
-function flip1()
-{
-    document.getElementById('front1').style.transform = "rotateY(180deg)";
-    document.getElementById('back1').style.transform = "rotateY(360deg)";    
-}
-function flipback1()
-{
-    document.getElementById('front1').style.transform = "rotateY(360deg)";
-    document.getElementById('back1').style.transform = "rotateY(180deg)";
-}
-function flip2()
-{
-    document.getElementById('front2').style.transform = "rotateY(180deg)";
-    document.getElementById('back2').style.transform = "rotateY(360deg)";
-}
-function flipback2()
-{
-    document.getElementById('front2').style.transform = "rotateY(360deg)";
-    document.getElementById('back2').style.transform = "rotateY(180deg)";
-}
-function flip3()
-{
-    document.getElementById('front3').style.transform = "rotateY(180deg)";
-    document.getElementById('back3').style.transform = "rotateY(360deg)";
-}
-function flipback3()
-{
-    document.getElementById('front3').style.transform = "rotateY(360deg)";
-    document.getElementById('back3').style.transform = "rotateY(180deg)";
-}
-function flip4()
-{
-    document.getElementById('front4').style.transform = "rotateY(180deg)";
-    document.getElementById('back4').style.transform = "rotateY(360deg)";
-}
-function flipback4()
-{
-    document.getElementById('front4').style.transform = "rotateY(360deg)";
-    document.getElementById('back4').style.transform = "rotateY(180deg)";
-}
-function flip5()
-{
-    document.getElementById('front5').style.transform = "rotateY(180deg)";
-    document.getElementById('back5').style.transform = "rotateY(360deg)";
-}
-function flipback5()
-{
-    document.getElementById('front5').style.transform = "rotateY(360deg)";
-    document.getElementById('back5').style.transform = "rotateY(180deg)";
-}
-function flip6()
-{
-    document.getElementById('front6').style.transform = "rotateY(180deg)";
-    document.getElementById('back6').style.transform = "rotateY(360deg)";
-}
-function flipback6()
-{
-    document.getElementById('front6').style.transform = "rotateY(360deg)";
-    document.getElementById('back6').style.transform = "rotateY(180deg)";
-}
+
+flipCard();
+checkTarif();

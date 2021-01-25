@@ -1,18 +1,44 @@
+
+
+@media (max-width: 999px) {
+    .card {
+        margin-bottom: 50px;
+        width: 40%;
+    }
+}
+
+@media (max-width: 750px) {
+    .card {
+        width: 60%;
+    }
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 80%;
+    }
+    .tarif__tabs-button {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .tarif__cards-string {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .card {
+        height: 100%;
+    }
+    .tarif__cards-block {
+        height: 70%;
+    }
+}
+
 @media (min-width: 500px) and (max-width: 1000px) {
-    
-    #cards1 {
-        width: 60%;
-        margin-left: 20%;
-    }
-    
-    #cards2 {
-        width: 60%;
-        margin-left: 20%;
-    }
-    #cards3 {
-        width: 60%;
-        margin-left: 20%;
-    }
+
     .infobuttarif {
         height: 40px;
     }
@@ -81,18 +107,28 @@
         left: 1%;
     }
     body {
-        height:  220%;
-        min-height: 6080px;
+        height:  170%;
+        min-height: 4420px;
     }
     #top{
         height: 14%;
     }
     #info{
-        height: 6%; 
+        height: 8%; 
     }
     #tarif {
-        height: 30%;
+        height: 18%;
     }
+
+    .tarif__tabs {
+        display: flex;
+    }
+
+    .tarif__tabs-string {
+        width: 50%;
+        justify-content: space-evenly;
+    }
+
     .info__main {
         display: flex;
     }
@@ -139,7 +175,7 @@
     }
 
     .bonus-info {
-        height: 11%;
+        height: 15%;
     }
 
     .bonus-padding-left {
@@ -165,13 +201,13 @@
     }
 
     #techinfo {
-        height: 9%;
+        height: 11%;
     }
     .channels {
-        height: 15%; 
+        height: 16%; 
     }
     #formdiv {
-        height: 9%;
+        height: 11%;
     }
     .form-and-info {
         display: flex;
@@ -193,7 +229,7 @@
     }
 
     #bottom {
-        height: 6%;
+        height: 7%;
     }
     #submitbut {
         width: 26%;
@@ -211,49 +247,6 @@
     }
     .infobutttxttarif {
         padding-top: 10px;
-    }
-    #cards1 {
-        width: 100%;
-        margin-left: 0;
-        margin-bottom: 3%;
-        display: flex;
-        height: 29%;
-    }
-    
-    #cards2 {
-        width: 100%;
-        margin-left: 0;
-        display: flex;
-        height: 29%;
-        margin-bottom: 3%;
-    }
-    #cards3 {
-        width: 100%;
-        margin-left: 0;
-        display: flex;
-        height: 29%;
-        margin-bottom: 3%;
-    }
-
-    #solocard{
-        margin-left: 35%;
-    }
-    .cards {
-        height: 100%;
-        width: 30%;
-        margin-bottom: 0;
-    }
-    #card1 {
-        margin-left: 5%;
-    }
-    #card2 {
-        margin-left: 5%;
-    }
-    #card4 {
-        margin-left: 5%;
-    }
-    #card5 {
-        margin-left: 5%;
     }
 
     #infocardback4 {
@@ -286,8 +279,8 @@
         left: 15%;
     }
         body {
-        height:  180%;
-        min-height: 5340px;
+        height:  140%;
+        min-height: 4400px;
     }
     #top{
         display: flex;
@@ -307,11 +300,21 @@
         font-size: calc(1.5rem + 1vh);
     }
     #info{
-        height: 6%; 
+        height: 9%; 
     }
     #tarif {
-        height: 32%;
+        height: 17%;
     }
+
+    .tarif__tabs {
+        display: flex;
+    }
+
+    .tarif__tabs-string {
+        width: 50%;
+        justify-content: space-evenly;
+    }
+
     .infofront {
         font-size: 18px;
     }
@@ -355,7 +358,7 @@
     }
 
     .bonus-info {
-        height: 12%;
+        height: 15%;
     }
 
     .bonus-padding-left {
@@ -381,15 +384,15 @@
     }
 
     #techinfo {
-        height: 9%;
+        height: 10%;
     }
     .channels {
-        height: 15%; 
+        height: 18%; 
     }
 
 
     #formdiv {
-        height: 10%;
+        height: 11%;
     }
     .form-and-info {
         display: flex;
@@ -411,42 +414,9 @@
     }
 
     #bottom {
-        height: 6%;
+        height: 7%;
     }
 
-    #cards1 {
-        width: 100%;
-        margin-left: 0;
-        margin-bottom: 3%;
-        display: flex;
-        height: 30%;
-    }
-    
-    #cards2 {
-        width: 100%;
-        margin-left: 0;
-        display: flex;
-        height: 30%;
-        margin-bottom: 3%;
-    }
-
-    #cards3 {
-        width: 100%;
-        margin-left: 0;
-        display: flex;
-        height: 30%;
-        margin-bottom: 3%;
-    }
-
-    #solocard{
-        margin-left: 35%;
-    }
-
-    .cards {
-        height: 100%;
-        width: 32%;
-        margin-bottom: 0;
-    }
     .onbutt {
         margin-left: 15%;
     }
@@ -470,18 +440,6 @@
     .infocardback {
         width: 90%;
         margin-left: 5%;
-    }
-    #card1 {
-        margin-left: 2%;
-    }
-    #card2 {
-        margin-left: 2%;
-    }
-    #card4 {
-        margin-left: 2%;
-    }
-    #card5 {
-        margin-left: 2%;
     }
     #infocardback4 {
         margin-top: 5%;
@@ -513,8 +471,8 @@
         left: 20%;
     }
         body {
-        height:  180%;
-        min-height: 6150px;
+        height:  170%;
+        min-height: 4600px;
     }
     #top{
         display: flex;
@@ -562,19 +520,25 @@
     }
     
     #info{
-        height: 7%;
+        height: 9%;
     }
     #tarif{
-        height: 31%;
+        height: 17%;
     }
-    #solocard{
-        margin-left: 35%;
+
+    .tarif__tabs {
+        display: flex;
+    }
+
+    .tarif__tabs-string {
+        width: 50%;
+        justify-content: space-evenly;
     }
     .tarifname {
         font-size: 27px;
     }
     #connectioninfo {
-        height: 6%;
+        height: 8%;
     }
 
     .connection-main {
@@ -590,7 +554,7 @@
     }
 
     .bonus-info {
-        height: 11%;
+        height: 14%;
     }
 
     .bonus-padding-left {
@@ -616,15 +580,15 @@
     }
 
     #techinfo {
-        height: 8%;
+        height: 10%;
     }
     .channels {
-        height: 13%;
+        height: 18%;
     }
 
 
     #formdiv {
-        height: 10%;
+        height: 12%;
     }
     .form-and-info {
         display: flex;
@@ -647,29 +611,7 @@
 
 
     #bottom {
-        height: 7%;
-    }
-    #cards1 {
-        width: 100%;
-        margin-left: 0;
-        margin-bottom: 3%;
-        display: flex;
-        height: 30%;
-    }
-    
-    #cards2 {
-        width: 100%;
-        margin-left: 0;
-        display: flex;
-        height: 30%;
-        margin-bottom: 3%;
-    }
-    #cards3 {
-        width: 100%;
-        margin-left: 0;
-        display: flex;
-        height: 30%;
-        margin-bottom: 3%;
+        height: 8%;
     }
     .infofront {
         font-size: 22px;
@@ -713,23 +655,6 @@
         width: 26%;
         margin-left: 37%;
     }
-    .cards {
-        height: 100%;
-        width: 30%;
-        margin-bottom: 0;
-    }
-    #card1 {
-        margin-left: 5%;
-    }
-    #card2 {
-        margin-left: 5%;
-    }
-    #card4 {
-        margin-left: 5%;
-    }
-    #card5 {
-        margin-left: 5%;
-    }
 }
 
 @media (min-width: 1400px) and (max-height: 960px) {
@@ -739,12 +664,5 @@
     #maindiv {
         width: 70%;
         left: 15%;
-    }
-}
-
-@media (min-width: 1400px) and (max-height: 796px) {
-    body {
-        min-height: 6000px;
-        height: 240%;
     }
 }

@@ -6,10 +6,10 @@
         <meta name="format-detection" content="telephone=no">
         <meta http-equiv="x-rim-auto-match" content="none">
         <title>Интернет Москва</title>
-        <link rel="stylesheet" href="style.css?v=2.010">
-        <link rel="stylesheet" href="media.css?v=1.010">
+        <link rel="stylesheet" href="style.css?v=2.012">
+        <link rel="stylesheet" href="media.css?v=1.012">
         <link rel="shortcut icon" href="img/ico.ico" type="image/x-icon">
-        <script src="inc/script.js?v=1"></script>
+        <script src="inc/script.js?v=1.002" defer></script>
     </head>
     <body>
         <!— Yandex.Metrika counter —>
@@ -53,17 +53,28 @@
             <div id="tarif">
                 <p><a name="atarif"></a></p>
                 <h1 id="tarifh1"><br>Тарифы</h1>
-                <div id="cards1">
-                    <div class="cards">
+                <div class="tarif__tabs">
+                    <div class="tarif__tabs-string">
+                        <button class="tarif__tabs-button tarif__tabs-button-checked" data-category="internet">Интернет</button>
+                        <button class="tarif__tabs-button" data-category="internet+tv">Интернет + ТВ</button>
+                        <button class="tarif__tabs-button" data-category="internet+mobile">Интернет + мобильная связь</button>
+                    </div>
+                    <div class="tarif__tabs-string">
+                        <button class="tarif__tabs-button" data-category="internet+tv+mobile">Интернет + ТВ + мобильная связь</button>
+                        <button class="tarif__tabs-button" data-category="video">Видеонаблюдение</button>
+                    </div>
+                </div>
+                <div class="tarif__cards-block" data-category="internet">
+                    <div class="tarif__cards-string">
                         <div class="card">
-                            <div id="front" class="frontclass">
+                            <div class="frontclass">
                                 <div class="infocard">
-                                    <h3 class="tarifname">Для начала</h3>
+                                    <h3 class="tarifname tarif__shortname">Для начала</h3>
                                     <hr class="tarifhr">
-                                    <h2 class="tarifprice">400</h2>
+                                    <h2 class="tarifprice">450</h2>
                                     <p class="rubmonth">рублей в месяц</p>
                                     <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">100 Мбит/c</h2>
-                                    <button onclick="flip()" class="onbutt">Подробнее</button>
+                                    <button class="onbutt">Подробнее</button>
                                     <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
                                 </div>
                             </div>
@@ -74,21 +85,19 @@
                                     <hr class="backtarifhr">
                                     <p class="backhead">Дополнительно</p>
                                     <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
-                                    <button onclick="flipback()" class="offbut">Закрыть</button>
+                                    <button class="offbut">Закрыть</button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="cards" id="card1">
                         <div class="card">
-                            <div id="front1" class="frontclass">
+                            <div class="frontclass">
                                 <div class="infocard">
-                                    <h3 class="tarifname">Апгрейд</h3>
+                                    <h3 class="tarifname tarif__shortname">Апгрейд</h3>
                                     <hr class="tarifhr">
                                     <h2 class="tarifprice">500</h2>
                                     <p class="rubmonth">рублей в месяц</p>
                                     <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">500 Мбит/c</h2>
-                                    <button onclick="flip1()" class="onbutt" id="onbut5">Подробнее</button>
+                                    <button class="onbutt">Подробнее</button>
                                     <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
                                 </div>
                             </div>
@@ -99,22 +108,24 @@
                                     <hr class="backtarifhr">
                                     <p class="backhead">Дополнительно</p>
                                     <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
-                                    <button onclick="flipback1()" class="offbut">Закрыть</button>
+                                    <button class="offbut">Закрыть</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="cards" id="card2">
+                </div>
+                <div class="tarif__cards-block hide" data-category="internet+tv">
+                    <div class="tarif__cards-string">
                         <div class="card">
-                            <div id="front2" class="frontclass">
+                            <div class="frontclass">
                                 <div class="infocard">
-                                    <h3 class="tarifname">Апгрейд 2в1</h3>
+                                    <h3 class="tarifname tarif__shortname">Апгрейд 2в1</h3>
                                     <hr class="tarifhr">
                                     <h2 class="tarifprice">550</h2>
                                     <p class="rubmonth">рублей в месяц</p>
                                     <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">500 Мбит/c</h2>
                                     <h2 class="infofront"><img src="img/tvicon1.png" class="tvicon">150 ТВ каналов</h2>
-                                    <button onclick="flip2()" class="onbutt" id="onbut4">Подробнее</button>
+                                    <button class="onbutt">Подробнее</button>
                                     <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
                                 </div>
                             </div>
@@ -127,24 +138,50 @@
                                     <p class="backhead">Дополнительно</p>
                                     <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
                                     <p class="backtext">- ТВ приставка за 10 рублей! Услуга "Гарантия плюс" на ТВ приставку</p>
-                                    <button onclick="flipback2()" class="offbut" id="offbut2">Закрыть</button>
+                                    <button class="offbut">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="frontclass">
+                                <div class="infocard">
+                                    <h3 class="tarifname">Выгодное<br>решение 200</h3>
+                                    <hr class="tarifhr">
+                                    <h2 class="tarifprice">560</h2>
+                                    <p class="rubmonth">рублей в месяц</p>
+                                    <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">200 Мбит/c</h2>
+                                    <h2 class="infofront"><img src="img/tvicon1.png" class="tvicon">227 ТВ каналов</h2>
+                                    <button class="onbutt">Подробнее</button>
+                                    <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
+                                </div>
+                            </div>
+                            <div id="back5" class="backclass">
+                                <div class="infocardback">
+                                    <p class="backhead">Параметры</p>
+                                    <p class="backtext"> - Домашний интернет 200 Мбит/c</p>
+                                    <p class="backtext"> - 227 ТВ канала с приставкой</p>
+                                    <hr class="backtarifhr">
+                                    <p class="backhead">Дополнительно</p>
+                                    <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
+                                    <p class="backtext">- ТВ приставка за 10 рублей! Услуга "Гарантия плюс" на ТВ приставку</p>
+                                    <button class="offbut">Закрыть</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="cards2">
-                    <div class="cards">
+                <div class="tarif__cards-block hide" data-category="internet+mobile">
+                    <div class="tarif__cards-string">
                         <div class="card">
-                            <div id="front3" class="frontclass">
+                            <div class="frontclass">
                                 <div class="infocard">
-                                    <h3 class="tarifname">Технологии общения</h3>
+                                    <h3 class="tarifname">Технологии общения 200</h3>
                                     <hr class="tarifhr">
-                                    <h2 class="tarifprice" id="tarifprice4">700</h2>
+                                    <h2 class="tarifprice tarif__price-long">700</h2>
                                     <p class="rubmonth">рублей в месяц</p>
                                     <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">200 Мбит/c</h2>
                                     <h2 class="infofront"><img src="img/simicon.png" class="simicon">Симкарта<br>1200 минут<br>500 смс<br>безлимитный интернет</h2>
-                                    <button onclick="flip3()" class="onbutt" id="onbut2">Подробнее</button>
+                                    <button class="onbutt">Подробнее</button>
                                     <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
                                 </div>
                             </div>
@@ -156,23 +193,50 @@
                                     <p class="backhead">Дополнительно</p>
                                     <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
                                     <p class="backtext"> - Cимкарта с сохранением номера 1200 минут, 500 смс и безлимитный интернет</p>
-                                    <button onclick="flipback3()" class="offbut" id="offbut3">Закрыть</button>
+                                    <button class="offbut">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="frontclass">
+                                <div class="infocard">
+                                    <h3 class="tarifname">Технологии общения 100</h3>
+                                    <hr class="tarifhr">
+                                    <h2 class="tarifprice tarif__price-long">650</h2>
+                                    <p class="rubmonth">рублей в месяц</p>
+                                    <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">100 Мбит/c</h2>
+                                    <h2 class="infofront"><img src="img/simicon.png" class="simicon">Симкарта<br>1200 минут<br>500 смс<br>безлимитный интернет</h2>
+                                    <button class="onbutt">Подробнее</button>
+                                    <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
+                                </div>
+                            </div>
+                            <div id="back3" class="backclass">
+                                <div class="infocardback" id="infocardback4">
+                                    <p class="backhead">Параметры</p>
+                                    <p class="backtext"> - Домашний интернет 100 Мбит/c</p>
+                                    <hr class="backtarifhr">
+                                    <p class="backhead">Дополнительно</p>
+                                    <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
+                                    <p class="backtext"> - Cимкарта с сохранением номера 1200 минут, 500 смс и безлимитный интернет</p>
+                                    <button class="offbut">Закрыть</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="cards" id="card4">
+                </div>
+                <div class="tarif__cards-block hide" data-category="internet+tv+mobile">
+                    <div class="tarif__cards-string">
                         <div class="card">
-                            <div id="front4" class="frontclass">
+                            <div class="frontclass">
                                 <div class="infocard" id="infocardback5">
                                     <h3 class="tarifname">Для развлечения везде</h3>
                                     <hr class="tarifhr">
-                                    <h2 class="tarifprice" id="tarifprice5">800</h2>
+                                    <h2 class="tarifprice tarif__price-long">800</h2>
                                     <p class="rubmonth">рублей в месяц</p>
                                     <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">100 Мбит/c</h2>
                                     <h2 class="infofront"><img src="img/tvicon1.png" class="tvicon">230 ТВ каналов</h2>
                                     <h2 class="infofront"><img src="img/simicon.png" class="simicon">Симкарта<br>1200 минут<br>500 смс<br>безлимитный интернет</h2>
-                                    <button onclick="flip4()" class="onbutt" id="onbut3">Подробнее</button>
+                                    <button class="onbutt">Подробнее</button>
                                     <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
                                 </div>
                             </div>
@@ -186,53 +250,21 @@
                                     <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
                                     <p class="backtext">- ТВ приставка за 10 рублей! Услуга "Гарантия плюс" на ТВ приставку</p>
                                     <p class="backtext"> - Cимкарта с сохранением номера 1200 минут, 500 смс и безлимитный интернет</p>
-                                    <button onclick="flipback4()" class="offbut" id="offbut4">Закрыть</button>
+                                    <button class="offbut">Закрыть</button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="cards" id="card5">
                         <div class="card">
-                            <div id="front5" class="frontclass">
-                                <div class="infocard">
-                                    <h3 class="tarifname">2в1 лёгкий переход</h3>
-                                    <hr class="tarifhr">
-                                    <h2 class="tarifprice" id="tarifprice6">390</h2>
-                                    <p class="rubmonth">рублей в месяц</p>
-                                    <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">50 Мбит/c</h2>
-                                    <h2 class="infofront"><img src="img/tvicon1.png" class="tvicon">72 ТВ канала</h2>
-                                    <button onclick="flip5()" class="onbutt" id="onbut6">Подробнее</button>
-                                    <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
-                                </div>
-                            </div>
-                            <div id="back5" class="backclass">
-                                <div class="infocardback">
-                                    <p class="backhead">Параметры</p>
-                                    <p class="backtext"> - Домашний интернет 50 Мбит/c</p>
-                                    <p class="backtext"> - 72 ТВ канала с приставкой</p>
-                                    <hr class="backtarifhr">
-                                    <p class="backhead">Дополнительно</p>
-                                    <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
-                                    <p class="backtext">- ТВ приставка за 10 рублей! Услуга "Гарантия плюс" на ТВ приставку</p>
-                                    <button onclick="flipback5()" class="offbut" id="offbut6">Закрыть</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="cards3">
-                    <div class="cards" id="solocard">
-                        <div class="card">
-                            <div id="front6" class="frontclass">
+                            <div class="frontclass">
                                 <div class="infocard">
                                     <h3 class="tarifname">Технологии общения 300</h3>
                                     <hr class="tarifhr">
-                                    <h2 class="tarifprice">1300</h2>
+                                    <h2 class="tarifprice tarif__price-long">1100</h2>
                                     <p class="rubmonth">рублей в месяц</p>
                                     <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">300 Мбит/c</h2>
                                     <h2 class="infofront"><img src="img/tvicon1.png" class="tvicon">230 ТВ каналов</h2>
                                     <h2 class="infofront"><img src="img/simicon.png" class="simicon">5 симкарт<br>2000 минут<br>500 смс<br>безлимитный интернет</h2>
-                                    <button onclick="flip6()" class="onbutt" id="onbut6">Подробнее</button>
+                                    <button class="onbutt">Подробнее</button>
                                     <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
                                 </div>
                             </div>
@@ -246,7 +278,61 @@
                                     <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
                                     <p class="backtext">- ТВ приставка за 10 рублей! Услуга "Гарантия плюс" на ТВ приставку</p>
                                     <p class="backtext"> - 5 симкарт с сохранением номера 2000 минут, 500 смс и безлимитный интернет</p>
-                                    <button onclick="flipback6()" class="offbut" id="offbut6">Закрыть</button>
+                                    <button class="offbut">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarif__cards-block hide" data-category="video">
+                    <div class="tarif__cards-string">
+                        <div class="card">
+                            <div class="frontclass">
+                                <div class="infocard">
+                                    <h3 class="tarifname tarif__shortname">Видеонаблюдение</h3>
+                                    <hr class="tarifhr">
+                                    <h2 class="tarifprice">350</h2>
+                                    <p class="rubmonth">рублей в месяц</p>
+                                    <h2 class="infofront"><img src="img/videoicon.png" class="videoicon">Видеонаблюдение</h2>
+                                    <button class="onbutt">Подробнее</button>
+                                    <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
+                                </div>
+                            </div>
+                            <div id="back7" class="backclass">
+                                <div class="infocardback">
+                                    <p class="backhead">Параметры</p>
+                                    <p class="backtext"> - Функции записи, паузы и транслирования</p>
+                                    <p class="backtext"> - Push - уведомления</p>
+                                    <p class="backtext"> - Датчик движения</p>
+                                    <hr class="backtarifhr">
+                                    <button class="offbut">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="frontclass">
+                                <div class="infocard">
+                                    <h3 class="tarifname">Технологии контроля 300</h3>
+                                    <hr class="tarifhr">
+                                    <h2 class="tarifprice">700</h2>
+                                    <p class="rubmonth">рублей в месяц</p>
+                                    <h2 class="infofront"><img src="img/speedicon1.png" class="speedicon">300 Мбит/c</h2>
+                                    <h2 class="infofront"><img src="img/videoicon.png" class="videoicon">Видеонаблюдение</h2>
+                                    <button class="onbutt">Подробнее</button>
+                                    <div class="infobuttarif"><a href="#aform" class="ainfobut"><p class="infobutttxttarif">Заказать звонок</p></a></div>
+                                </div>
+                            </div>
+                            <div id="back8" class="backclass">
+                                <div class="infocardback">
+                                    <p class="backhead">Параметры</p>
+                                    <p class="backtext"> - Домашний интернет 300 Мбит/c</p>
+                                    <p class="backtext"> - Функции записи, паузы и транслирования</p>
+                                    <p class="backtext"> - Push - уведомления</p>
+                                    <p class="backtext"> - Датчик движения</p>
+                                    <hr class="backtarifhr">
+                                    <p class="backhead">Дополнительно</p>
+                                    <p class="backtext"> - Wi-Fi роутер за 10 рублей! Услуга "Гарантия плюс" на Wi-Fi роутер</p>
+                                    <button class="offbut">Закрыть</button>
                                 </div>
                             </div>
                         </div>
