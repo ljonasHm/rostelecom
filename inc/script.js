@@ -30,6 +30,11 @@ function checkTarif() {
 
     tabs.forEach((tab) => {
         tab.addEventListener('click', () => {
+
+            if (tab.getAttribute('data-category') == 'internet') {
+                console.log(document.documentElement.style);
+            }
+
             tabs.forEach((tab) => {
                 tab.classList.remove('tarif__tabs-button-checked');
             });

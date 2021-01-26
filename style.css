@@ -2,8 +2,7 @@
 
 html, body{
     width: 100%;
-    height: 210%;
-    min-height: 2600px;
+    /* height: 5700px; */
     padding: 0;
     margin: 0;
     background-color: #202026;
@@ -43,7 +42,7 @@ p {
 
 #tarif {
     width: 100%;
-    height: 26%;
+    height: 1550px;
     background-color: #202026;
     position: relative;
 }
@@ -51,14 +50,14 @@ p {
 #connectioninfo {
     position: relative;
     width: 100%;
-    height: 10%;
+    height: 500px;
     background-color: #3b3c46;
 }
 
 .bonus-info {
     position: relative;
     width: 100%;
-    height: 12%;
+    height: 550px;
     padding-top: 5%;
     background-image: url(img/room.jpg);
     background-size: cover;
@@ -68,13 +67,13 @@ p {
 #techinfo {
     position: relative;
     width: 100%;
-    height: 9%;
+    height: 450px;
     background-color: #202026;
 }
 
 .channels {
     position: relative;
-    height: 14%;
+    height: 800px;
     background-color: #3b3c46;
 }
 
@@ -83,7 +82,7 @@ p {
 #formdiv {
     position: relative;
     width: 100%;
-    height: 13%;
+    height: 550px;
     background-color: #202026;
 }
 
@@ -91,7 +90,7 @@ p {
 #bottom {
     position: relative;
     width: 100%;
-    height: 4%;
+    height: 200px;
     background-color: #3b3c46;
 }
 
@@ -147,17 +146,18 @@ p {
     height: 40%;
     width: 100%;
     display: flex;
+    margin: 0 10px;
 }
 
 .form-info-icon {
-    margin-top: 10%;
-    height: 40%;
+    height: 50px;
 }
 
 .form-info-p {
     color: #e2e2e2;
     font-size: 25px;
-    margin-left: 10%;
+    margin-left: 10px;
+    margin-top: 0;
 }
 
 .userform {
@@ -165,6 +165,9 @@ p {
     height: 40%;
 }
 
+.form__button {
+    margin-top: 50px;
+}
 
 .info__h {
     position: relative;
@@ -255,8 +258,9 @@ p {
 }
 
 .connection-main {
-    width: 100%;
+    width: 80%;
     height: 80%;
+    margin: auto;
 }
 
 .connection-divs {
@@ -271,7 +275,7 @@ p {
 }
 
 .digitimg {
-    width: 50%;
+    height: 70%;
     margin-left: 25%;
 }
 
@@ -384,7 +388,7 @@ h3 {
 }
 
 #namefield {
-    margin-top: 10%;
+    margin-top: 10px;
 }
 
 #telfield {
@@ -428,7 +432,7 @@ h3 {
     border-radius: 50px;
     width: 45%;
     margin-left: 27.5%;
-    margin-top: 10%;
+    margin-top: 20px;
     font-family: 'Ubuntu', sans-serif;
     color: white;
     font-size: 18px;
@@ -436,7 +440,7 @@ h3 {
 }
 
 #bottomnum {
-    margin-top: 15%;
+    margin-top: 10px;
 }
 
 .abut {
@@ -531,7 +535,7 @@ h3 {
     position: relative;
     width: 40%;
     padding-left: 10%;
-    margin-top: 20%;
+    margin-top: 50px;
 }
 
 
@@ -807,7 +811,7 @@ label, a{
 .card {
     position: relative;
     width: 30%;
-    height: 45%;
+    height: 550px;
     margin: auto;
 }
 

@@ -1,24 +1,112 @@
 
-
-@media (max-width: 999px) {
+@media (max-width: 1000px) {
     .card {
         margin-bottom: 50px;
         width: 40%;
     }
+    .onbutt {
+        height: 30px;
+        bottom: 50px;
+    }
+    .infobuttarif {
+        height: 30px;
+        bottom: 10px;
+    }
+    .infobutttxttarif {
+        padding-top: 5px;
+    }
+    .tarif__card-short {
+        height: 400px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+    #info {
+        height: 600px;
+        width: 75%;
+        margin: auto;
+        padding-top: 110px;
+    }
 }
 
 @media (max-width: 750px) {
+    #info {
+        width: 100%;
+        margin: auto;
+        height: 600px;
+        padding-top: 110px;
+    }
+    .digitimg {
+        height: 60%;
+    }
+    .forminfo {
+        height: 150px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .form__h1 {
+        font-size: 25px;
+    }
+    .form__h2 {
+        font-size: 20px;
+    }
+    .form-info-p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 800px) {
     .card {
         width: 60%;
     }
 }
 
-@media (max-width: 400px) {
+@media (min-width: 750px) and (max-width: 1000px) {
+    .forminfo {
+        height: 100px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        display: flex;
+    }
+}
+
+@media (max-width: 550px) {
     .card {
         width: 80%;
     }
+}
+
+@media (max-width: 500px) {
+    .digitimg {
+        height: 45%;
+    }
+}
+
+@media (max-width: 400px) {
     .tarif__tabs-button {
         font-size: 14px;
+    }
+    .digitimg {
+        height: 35%;
+    }
+    .connection-h2 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 325px) {
+    .card {
+        width: 90%;
+    }
+    .tarif__tabs-button {
+        font-size: 12px;
     }
 }
 
@@ -39,17 +127,8 @@
 
 @media (min-width: 500px) and (max-width: 1000px) {
 
-    .infobuttarif {
-        height: 40px;
-    }
-    .infobutttxttarif {
-        padding-top: 10px;
-    }
 
-    #info {
-        height: 7%;
-        padding-top: 160px;
-    }
+    
 
     #infobutplace {
         width: 80%;
@@ -71,9 +150,6 @@
     .info__p {
         font-size: 18px;
     }
-    .onbutt {
-        height: 40px;
-    }
     .infofront {
         font-size: 18px;
     }
@@ -81,23 +157,12 @@
         font-size: 17px;
     }
 
-    .form-and-info {
-        display: flex;
-    }
-    .forminfo {
-        height: 80%;
-        width: 40%;
-        margin-left: 10%;
-        margin-bottom: 20%;
-        margin-top: 5%;
-    }
     .userform {
-        width: 50%;
-        height: 100%;
+        width: 100%;
+        height: 50%;
     }
     .form-info-icon {
-        margin-top: 5%;
-        height: 40%;
+        height: 50px;
     }
 }
 
@@ -106,18 +171,17 @@
         width: 98%;
         left: 1%;
     }
-    body {
-        height:  170%;
-        min-height: 4420px;
-    }
+    /* body {
+        height: 4420px;
+    } */
     #top{
-        height: 14%;
+        height: 200px;
     }
     #info{
-        height: 8%; 
+        height: 400px; 
     }
     #tarif {
-        height: 18%;
+        height: 800px;
     }
 
     .tarif__tabs {
@@ -138,6 +202,9 @@
         margin-top: 0;
         width: 48%;
     }
+    .infobuttarif {
+        height: 40px;
+    }
     .info__sale {
         margin-left: 0;
         height: 100%;
@@ -154,7 +221,7 @@
         font-size: 18px;
     }
     #connectioninfo {
-        height: 5.5%;
+        height: 300px;
     }
 
     .connection-main {
@@ -169,13 +236,13 @@
         font-size: 25px;
     }
 
-    .digitimg {
+    /* .digitimg {
         width: 40%;
         margin-left: 30%;
-    }
+    } */
 
     .bonus-info {
-        height: 15%;
+        height: 650px;
     }
 
     .bonus-padding-left {
@@ -201,13 +268,13 @@
     }
 
     #techinfo {
-        height: 11%;
+        height: 550px;
     }
     .channels {
-        height: 16%; 
+        height: 700px; 
     }
     #formdiv {
-        height: 11%;
+        height: 450px;
     }
     .form-and-info {
         display: flex;
@@ -229,7 +296,7 @@
     }
 
     #bottom {
-        height: 7%;
+        height: 200px;
     }
     #submitbut {
         width: 26%;
@@ -240,9 +307,6 @@
         width: 50%;
     }
     .onbutt {
-        height: 40px;
-    }
-    .infobuttarif {
         height: 40px;
     }
     .infobutttxttarif {
@@ -278,10 +342,9 @@
         width: 70%;
         left: 15%;
     }
-        body {
-        height:  140%;
-        min-height: 4400px;
-    }
+        /* body {
+        height: 4400px;
+    } */
     #top{
         display: flex;
         height: 14%;
@@ -300,12 +363,17 @@
         font-size: calc(1.5rem + 1vh);
     }
     #info{
-        height: 9%; 
+        height: 400px; 
     }
     #tarif {
-        height: 17%;
+        height: 750px;
     }
-
+    .card {
+        width: 35%;
+    }
+    .tarif__card-short {
+        width: 30%;
+    }
     .tarif__tabs {
         display: flex;
     }
@@ -319,7 +387,7 @@
         font-size: 18px;
     }
     #connectioninfo {
-        height: 6%;
+        height: 300px;
     }
     .connection-main {
         display: flex;
@@ -358,7 +426,7 @@
     }
 
     .bonus-info {
-        height: 15%;
+        height: 700px;
     }
 
     .bonus-padding-left {
@@ -384,15 +452,15 @@
     }
 
     #techinfo {
-        height: 10%;
+        height: 450px;
     }
     .channels {
-        height: 18%; 
+        height: 700px; 
     }
 
 
     #formdiv {
-        height: 11%;
+        height: 420px;
     }
     .form-and-info {
         display: flex;
@@ -414,7 +482,7 @@
     }
 
     #bottom {
-        height: 7%;
+        height: 200px;
     }
 
     .onbutt {
@@ -466,14 +534,13 @@
 }
 
 @media (min-width: 1400px) {
-        #maindiv {
+    #maindiv {
         width: 60%;
         left: 20%;
     }
-        body {
-        height:  170%;
-        min-height: 4600px;
-    }
+    /* html, body {
+        height: 3600px;
+    } */
     #top{
         display: flex;
         height: 13%; 
@@ -520,10 +587,10 @@
     }
     
     #info{
-        height: 9%;
+        height: 400px;
     }
     #tarif{
-        height: 17%;
+        height: 850px;
     }
 
     .tarif__tabs {
@@ -538,7 +605,7 @@
         font-size: 27px;
     }
     #connectioninfo {
-        height: 8%;
+        height: 300px;
     }
 
     .connection-main {
@@ -554,7 +621,7 @@
     }
 
     .bonus-info {
-        height: 14%;
+        height: 700px;
     }
 
     .bonus-padding-left {
@@ -580,15 +647,15 @@
     }
 
     #techinfo {
-        height: 10%;
+        height: 500px;
     }
     .channels {
-        height: 18%;
+        height: 800px;
     }
 
 
     #formdiv {
-        height: 12%;
+        height: 500px;
     }
     .form-and-info {
         display: flex;
@@ -611,7 +678,7 @@
 
 
     #bottom {
-        height: 8%;
+        height: 200px;
     }
     .infofront {
         font-size: 22px;
